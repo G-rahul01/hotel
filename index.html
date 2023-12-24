@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Rocky Restaurants</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</head>
+<body>
+    <!--Navbar-->
+
+<div  class="header">
+<nav class="fixed-top">
+    <img src= "./img/logo2.png" width="300" height="50" alt="logo"> 
+     <ul>
+        <li><h4><a style="text-decoration: none;color:white;" href="cart.html">Cart </a></h4></li>
+       <li> <h4><a style="text-decoration: none;color:white;" href="chat.html">FeedBack</a></h4></li>
+
+     </ul>
+</nav>
+</div>
+<br><br><br><br><br><br><br>
+    <!--slideder-->
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="./img/slide/slide2.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="./img/slide/slide4.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="./img/slide/slide5.avif" class="d-block w-100" alt="...">
+          </div>
+     </div>
+    </div>
+    <!--slideder 2-->
+    
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+          <div class="carousel-item active">
+              <img src="./img/slide/slide6.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item ">
+              <img src="./img/slide/slide7.avif" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+              <img src="./img/slide/slide8.avif" class="d-block w-100" alt="...">
+          </div>
+     </div>
+    </div>
+          
+      
+ 
+ 
+<br><br>
+   
+
+    <!--Product (grid image 1)-->
+    <center><h1 class="our">Breakfast</h1></center>
+    <br><br>
+
+    <center>
+    <div class="product">
+        <div class="box">
+          <img src="./img/idly.jpg"width="288" height="250" alt="">
+          <h3>Idly</h3>
+          <h3>price:₹50</h3>
+          <button class="btn btn-primary" onclick="addToCart('Idly', 50)"><h4>Add to Cart</h4></button>    
+       </div>
+
+
+        <div class="box">
+          <img src="./img/Pongal.jpg" alt="">
+          <h3>Pongal</h3>
+          <h3>price:₹50</h3>
+          <button class="btn btn-primary" onclick="addToCart('Pongal', 50)"><h4>Add to Cart</h4></button>       
+     </div>
+
+
+        <div class="box">
+          <img src="./img/Poori.jpg" alt="">
+          <h3>Poori</h3>
+          <h3>price:₹60</h3>
+          <button class="btn btn-primary" onclick="addToCart('Poori', 60)"><h4>Add to Cart</h4></button>
+       </div>
+
+
+        <div class="box">
+                 <img src="./img/Dosa.jpg" alt="">
+          <h3>Dosa</h3>
+          <h3>price:₹60</h3>
+          <button class="btn btn-primary" onclick="addToCart('Dosa', 60)"><h4>Add to Cart</h4></button>
+            </div>
+      </center>
+      <br><br><br>
+
+
+  <!--Product (grid image 2)-->
+
+  <center><h1 class="our"> Lunch</h1></center>
+  <br><br>
+<center>
+<div class="product">
+<div class="box">
+  <img src="./img/meals.jpg"width="260" height="260" alt="">
+  <h3>Veg_Meals</h3>
+  <h3>price:₹150</h3>
+  <button class="btn btn-primary" onclick="addToCart('Veg_Meals', 150)"><h4>Add to Cart</h4></button>
+  
+
+</div>
+<div class="box">
+<img src="./img/fish_curry_rice.jpg"width="250" height="250" alt="">
+<h3>fish_curry_rice</h3>
+<h3>price:₹200</h3>
+<button class="btn btn-primary" onclick="addToCart('fish_curry_rice', 200)"><h4>Add to Cart</h4></button>
+</div>
+
+
+<div class="box">
+<img src="./img/biryani.jpg"width="288" height="250" alt="">
+<h3>Chicken_Biryani</h3>
+<h3>price:₹240</h3>
+<button class="btn btn-primary" onclick="addToCart('Chicken_Biryani', 240)"><h4>Add to Cart</h4></button>
+
+
+</div>
+<div class="box">
+  <img src="./img/South_Indian_4.jpg" alt="">
+ <h3>South_Indian_Rice with Karakolambu</h3>
+ <h3>price:₹100</h3>
+ <button class="btn btn-primary" onclick="addToCart('Rice with Karakolambu', 100)"><h4>Add to Cart</h4></button>
+</div>
+</center>
+<br><br><br>
+
+    <!--Product (grid image 3)-->
+
+         <center><h1 class="our">Dinner</h1></center>
+         <br><br>
+ <center>
+    <div class="product">
+      <div class="box">
+          <img src="./img/Parotta.jpg" alt="">
+          <h3>Parotta</h3>
+          <h3>price:₹80</h3>
+          <button class="btn btn-primary" onclick="addToCart('Parotta', 80)"><h4>Add to Cart</h4></button>
+          
+
+      </div>
+      <div class="box">
+          <img src="./img/Chinese_Noodles.jpg" alt="">
+          <h3>Chinese_Noodles</h3>
+          <h3>price:₹110</h3>
+          <button class="btn btn-primary" onclick="addToCart('Chinese_Noodles', 110)"><h4>Add to Cart</h4></button>
+     </div>
+
+
+      <div class="box">
+        <img src="./img/chicken-fried-rice.png"width="250" height="250" alt="">
+        <h3>chicken-fried-rice</h3>
+        <h3>price:₹120</h3>
+        <button class="btn btn-primary" onclick="addToCart('chicken-fried-rice', 120)"><h4>Add to Cart</h4></button>
+    </div>
+
+
+      <div class="box">
+        <img src="./img/North_Indian_4.jpg" alt="">
+        <h3>North_Indian_Chapathi</h3>
+        <h3>price:₹100</h3>
+        <button class="btn btn-primary" onclick="addToCart('North_Indian_Chapathi', 100)"><h4>Add to Cart</h4></button>        
+       </div>
+    </center>
+    <br><br><br>
+
+        
+
+          <!--Product (grid image 4)-->
+
+          <center><h1 class="our">Pizza & Burger & KFC</h1></center>
+          <br><br>
+ <center>
+    <div class="product">
+      <div class="box">
+          <img src="./img/burger.jpg" width="250" height="250" alt="">
+          <h3>Chicken_Burger</h3>
+          <h3>price:₹150</h3>
+          <button class="btn btn-primary" onclick="addToCart('Chicken_Burger', 150)"><h4>Add to Cart</h4></button>
+          
+
+      </div>
+      <div class="box">
+          <img src="./img/pizza.jpg"width="250" height="250" alt="">
+          <h3>Pizza</h3>
+          <h3>price:₹200</h3>
+          <button class="btn btn-primary" onclick="addToCart('Pizza', 200)"><h4>Add to Cart</h4></button>
+
+
+      </div>
+      <div class="box">
+          <img src="./img/kfc1.jpg"width="250" height="250" alt="">
+          <h3>Kfc_Chicken</h3>
+          <h3>price:₹360</h3>
+          <button class="btn btn-primary" onclick="addToCart('Kfc_Chicken', 360)"><h4>Add to Cart</h4></button>
+
+
+      </div>
+      <div class="box">
+        <img src="./img/Veg_Rolls.jpg"width="280" height="290" alt="">
+        <h3>Veg_Rolls</h3>
+        <h3>price:₹130</h3>
+        <button class="btn btn-primary" onclick="addToCart('Veg_Rolls', 130)"><h4>Add to Cart</h4></button>
+
+      </div>
+    </center>
+<br><br><br>
+               <!--Product (grid image 5)-->
+
+               <center><h1 class="our">Drinks</h1></center>
+               <br><br>
+               <center>
+                  <div class="product">
+                    <div class="box">
+                        <img src="./img/7up.jpg" width="150" height="250" alt="">
+                        <h3>7up</h3>
+                        <h3>price:₹50</h3>
+                        <button class="btn btn-primary" onclick="addToCart('7up', 50)"><h4>Add to Cart</h4></button>
+                        
+              
+                    </div>
+                    <div class="box">
+                        <img src="./img/coca_cola.jpg"width="150" height="250" alt="">
+                        <h3>Coca Cola</h3>
+                        <h3>price:₹30</h3>
+                        <button class="btn btn-primary" onclick="addToCart('Coca Cola', 30)"><h4>Add to Cart</h4></button>
+              
+              
+                    </div>
+                    <div class="box">
+                        <img src="./img/pepsi.jpg"width="150" height="250" alt="">
+                        <h3>Pepsi</h3>
+                        <h3>price:₹50</h3>
+                        <button class="btn btn-primary" onclick="addToCart('Pepsi', 50)"><h4>Add to Cart</h4></button>
+              
+              
+                    </div>
+                    <div class="box">
+                      <img src="./img/maaza.jpg"width="150" height="290" alt="">
+                      <h3>Maaza</h3>
+                      <h3>price:₹40</h3>
+                      <button class="btn btn-primary" onclick="addToCart('Maaza', 40)"><h4>Add to Cart</h4></button>
+              
+                    </div>
+                  </center>
+<br><br><br>
+
+                    <!--Product (grid image 6)-->
+
+               <center><h1 class="our">Desserts</h1></center>
+               <br><br>
+               <center>
+                  <div class="product">
+                    <div class="box">
+                        <img src="./img/ice-cream-dessert-with-fruit.jpg" width="150" height="250" alt="">
+                        <h3>ice-cream-dessert-with-fruit</h3>
+                        <h3>price:₹200</h3>
+                        <button class="btn btn-primary" onclick="addToCart('ice-cream-dessert-with-fruit', 200)"><h4>Add to Cart</h4></button>
+                        
+              
+                    </div>
+                    <div class="box">
+                        <img src="./img/ice-cream-with-chocolate-syrup.png"width="150" height="250" alt="">
+                        <h3>ice-cream-with-chocolate-syrup</h3>
+                        <h3>price:₹200</h3>
+                        <button class="btn btn-primary" onclick="addToCart('ice-cream-with-chocolate-syrup', 200)"><h4>Add to Cart</h4></button>
+              
+              
+                    </div>
+                    <div class="box">
+                        <img src="./img/strawberry-ice-cream.jpg"width="150" height="250" alt="">
+                        <h3>strawberry-ice-cream</h3>
+                        <h3>price:₹150</h3>
+                        <button class="btn btn-primary" onclick="addToCart('strawberry-ice-cream', 150)"><h4>Add to Cart</h4></button>
+              
+              
+                    </div>
+                    <div class="box">
+                      <img src="./img/Desserts_2.png"width="150" height="290" alt="">
+                      <h3>ice_Cake</h3>
+                      <h3>price:₹250</h3>
+                      <button class="btn btn-primary" onclick="addToCart('ice_Cake', 250)"><h4>Add to Cart</h4></button>
+              
+                    </div>
+                  </center>
+              <br><br><br>
+
+              
+    <!--Product (grid image 7)-->
+
+    <center><h1 class="our">Hot Beverages</h1></center>
+    <br><br>
+    <center>
+       <div class="product">
+         <div class="box">
+             <img src="./img/Coffee.jpg" width="200" height="230" alt="">
+             <h3>Coffee</h3>
+             <h3>price:₹50</h3>
+             <button class="btn btn-primary" onclick="addToCart('Coffee', 50)"><h4>Add to Cart</h4></button>
+             
+   
+         </div>
+         <div class="box">
+             <img src="./img/tea.jpg"width="200" height="180" alt="">
+             <h3>Tea</h3>
+             <h3>price:₹40</h3>
+             <button class="btn btn-primary" onclick="addToCart('Tea', 40)"><h4>Add to Cart</h4></button>
+   
+   
+         </div>
+         <div class="box">
+             <img src="./img/Lemon_Tea.jpg"width="200" height="180" alt="">
+             <h3>Lemon_Tea</h3>
+             <h3>price:₹60</h3>
+             <button class="btn btn-primary" onclick="addToCart('Lemon_Tea', 60)"><h4>Add to Cart</h4></button>
+   
+   
+         </div>
+         <div class="box">
+           <img src="./img/green-tea.avif"width="200" height="230" alt="">
+           <h3>green-tea</h3>
+           <h3>price:₹60</h3>
+           <button class="btn btn-primary" onclick="addToCart('green-tea', 60)"><h4>Add to Cart</h4></button>
+   
+         </div>
+       </center>
+   <br><br><br>
+
+
+  
+    <!--Fooder-->
+
+
+
+   <section class="footer">
+    <div class="footer-content">
+        <h3>OUR PROMISE</h3>
+      <p>At Rocky Restaurants, we promise a culinary journey defined by quality and innovation. Our commitment to using fresh, locally sourced ingredients ensures exceptional taste in every dish. With a diverse menu catering to various preferences, prompt service, and a focus on sustainability, we create delightful dining experiences that leave a lasting impression.</p>
+        <br>
+    <div class="icons">
+        <a href="https://wa.me/qr/HPRZNEANPSVKE1"><img src="./img/apps/whatsapp.png" width="40" height="30"/></a>
+        <a href="https://www.facebook.com/profile.php?id=100038506965517&mibextid=zLoPMf" ><img src="./img/apps/facebook.png"width="40" height="30"/></a>
+        <a href="https://instagram.com/iam_rahulg_?igshid=YzAwZjE1ZTI0Zg=="><img src="./img/apps/instagram.png"/width="40" height="30"></a>
+        <a href="mailto:rg429948@gmail.com?"><img src="./img/apps/gmail.png"/width="40" height="30"></a>
+       
+    </div>
+    
+    
+    </div>
+    <div class="footer-content">
+        <h4>CATEGORIES</h4>
+        <li>Breakfast</li>
+        <li>Lunch</li>
+        <li>Dinner</li>
+        <li>Drinks_&_Desserts</li>
+    
+    </div>
+    <div class="footer-content">
+        <h4>INFORMATION</h4>
+        <li>Blogs</li>
+        <li>About_Us</li>
+        <li>Contact_Us</li>
+        <li>Terms_of_Service</li>
+    
+    </div>
+    
+    
+    
+    <div class="footer-content">
+        <h4>SUPPORT</h4>
+        <li>Privacy_Policy</li>
+        <li>Shipping_Policy</li>
+        <li>Refund_&_Return_Policy</li>
+        <li>Terms_&_Conditions</li>
+    
+    </div>
+    
+    <div class="footer-content">
+    <h4>Address</h4>
+    <p  class="add">Address:55,Thiruvalluvar street,Rajendrasozhagan post,Kattumannarkoil,Cuddalore,<br>Tamilnadu-606301.<br>Phone.no:8973461155</p>
+    </div>
+    
+    <hr style="color: #1a242f">
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <hr>
+    <br>
+    <h5 class="copyright">Copyright © Rocky Restaurants Private Limited. All rights reserved.</h5>
+    
+        </section>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+ /* navbar */
+
+nav{
+    background-color: rgb(14, 16, 18);
+    padding: 20px;
+}
+
+ul,li,h4{
+    display: inline;
+}
+ul{
+    margin-left: 65%;
+
+}
+li{
+    color: rgb(248, 246, 246);
+    cursor: pointer;
+    word-spacing:20px;
+}
+ /* carousel slider */
+
+ #carouselExampleIndicators {
+    max-width: 750px;
+    border-radius: 2px;
+    overflow: hidden;
+    display: inline-block;
+
+}
+
+.carousel-inner {
+    border-radius: 2px;
+}
+
+.carousel-item {
+    text-align: center;
+}
+
+.carousel-item img {
+    width: 100%;
+    border-radius: 2px;
+}
+
+ /* product grid */
+
+.product{
+    display: inline;
+    padding-left: 5px;
+
+}
+.product{
+    transition: transform .2s;
+    width:50px;
+    height:50px;
+    margin:0 auto;
+}
+.box:hover{
+    transform:scale(1.1);
+}
+
+.box{
+    display: inline-block;
+    width: 370px;
+padding-left: 5px;
+}
+.box:hover{
+    color: black;
+    cursor: pointer;
+}
+.our{
+    background-color: #1a242f;
+    padding: 10px;
+    color: white;
+
+}
+
+
+ /* fooder */
+
+.footer{
+    padding-top:50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,auto));
+    background: #1a242f;
+    position: static;
+    padding-left:200px;
+}
+.footer-content p{
+    color: #d6d6d6;
+}
+.footer-content h3{
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+.footer-content h3,p{
+    padding-right: 70px;
+}
+
+.footer-content h4{
+    color: white;
+    margin-bottom: 1.5rem;
+    font-size: 20px;
+}
+.add{
+
+    margin-top: 1.0rem;
+
+}
+.icons a{
+display: inline-block;
+margin-right: 17px;
+transition: all.40s ease;
+padding-bottom: 20px;
+}
+.icons a:hover{
+    transform: translateY(-3px) translateY(-5px);
+    cursor: pointer;
+}
+
+.footer-content li{
+    margin: bottom 10px;
+}
+.footer-content li{
+    margin-top: 16px;
+    display: block;
+    color: #d6d6d6;
+    font-weight: 400;
+    font-size: 15px;
+    transition: all.40s ease;
+    
+}
+.footer-content li:hover{
+color: #9b0a0a;
+transform: translateY(-3px) translateY(-5px); 
+cursor: pointer;
+}
+.footer-content p:hover{
+    color: #b51919;
+    transform: translateY(-3px) translateY(-5px);
+    cursor: pointer;
+    }
+.copyright{
+    color: rgb(203, 18, 18);
+    text-align: center;
+    padding: 10px;
+    width:700px;
+        padding-left: 150%;
+    
+}
